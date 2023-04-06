@@ -5,7 +5,6 @@ import Preview from "@/components/Preview";
 import Filters from "@/components/Filters";
 import { Debuger } from "@/components/Debuger";
 import { Blobs } from "@/components/Blobs";
-import Footer from "@/components/Footer";
 
 
 export default function Home () {
@@ -24,7 +23,6 @@ export default function Home () {
         <Prompt />
         <Filters />
         <Preview />
-        <Footer />
       </main>
     </>
   );
