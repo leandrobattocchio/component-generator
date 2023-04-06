@@ -3,7 +3,6 @@ import Prompt from "@/components/Prompt";
 import Header from "@/components/Header";
 import Preview from "@/components/Preview";
 import Filters from "@/components/Filters";
-import { Debuger } from "@/components/Debuger";
 import { Blobs } from "@/components/Blobs";
 
 
@@ -17,7 +16,6 @@ export default function Home () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-here flex flex-col min-h-screen items-center" >
-        <Debuger />
         <Header />
         <Blobs />
         <Prompt />
